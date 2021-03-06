@@ -3,7 +3,7 @@ import os
 
 f=open('audiobook.txt')
 x=f.read()
-langugage = 'hin'
+langugage = 'en'
 
 audio =gTTS(text=x,lang=langugage)
 
